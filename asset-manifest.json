@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github-math/static/css/main.f82b81cb.chunk.css",
+    "main.js": "/github-math/static/js/main.3ac9a644.chunk.js",
+    "main.js.map": "/github-math/static/js/main.3ac9a644.chunk.js.map",
+    "runtime-main.js": "/github-math/static/js/runtime-main.dd90294f.js",
+    "runtime-main.js.map": "/github-math/static/js/runtime-main.dd90294f.js.map",
+    "static/js/2.ebb34e7b.chunk.js": "/github-math/static/js/2.ebb34e7b.chunk.js",
+    "static/js/2.ebb34e7b.chunk.js.map": "/github-math/static/js/2.ebb34e7b.chunk.js.map",
+    "index.html": "/github-math/index.html",
+    "precache-manifest.c01cb2bdd041591da94348e13567feea.js": "/github-math/precache-manifest.c01cb2bdd041591da94348e13567feea.js",
+    "service-worker.js": "/github-math/service-worker.js",
+    "static/css/main.f82b81cb.chunk.css.map": "/github-math/static/css/main.f82b81cb.chunk.css.map",
+    "static/js/2.ebb34e7b.chunk.js.LICENSE.txt": "/github-math/static/js/2.ebb34e7b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd90294f.js",
+    "static/js/2.ebb34e7b.chunk.js",
+    "static/css/main.f82b81cb.chunk.css",
+    "static/js/main.3ac9a644.chunk.js"
+  ]
+}
