@@ -6,13 +6,43 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  display: grid;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.App {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding: 1em 5em 5em;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Editor {
+  box-sizing: border-box;
+  flex: 1;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  border: 5px solid beige;
+}
+
+.Display {
+  cursor: pointer;
+  height: 10em;
+  flex: 0.5;
+}
+
+kbd {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 4px;
+  box-shadow: 0 1.5px 0 #777;
+  margin: 2px;
+  vertical-align: middle;
+  background: #eee;
+  font-weight: 500;
+  color: #555;
 }
