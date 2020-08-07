@@ -25,7 +25,7 @@ const encodeUrl = (code: string) => {
 const App: React.FC = () => {
   // The default code is a simple mathematical fact
   const [code, setCode] = usePersistentState('code', defaultCode)
-  const url = encodeUrl(code || defaultCode)
+  const url = encodeUrl(code)
 
   useEffect(() => {
     const listener = (e: KeyboardEvent) => {
