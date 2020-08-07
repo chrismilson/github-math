@@ -1,0 +1,16 @@
+.Display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Display .Image {
+  cursor: pointer;
+  object-fit: contain;
+  height: 100%;
+  max-width: 100%;
+}
+
+.Display.loading .Image {
+  display: none;
+}
