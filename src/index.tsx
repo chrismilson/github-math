@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react'
+import React, { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom'
 import addTextToClipboard from './common/addTextToClipboard'
 import LaTeXEditor from './components/Editor'
@@ -44,31 +44,31 @@ const App: React.FC = () => {
     }
   }, [url])
 
-  const explanation = useMemo(() => {
-    if (window.innerWidth <= 800 || window.innerHeight <= 600) {
-      return <h3>Click the preview image to add the url to your clipboard.</h3>
-    } else {
-      const key =
-        navigator.userAgent.indexOf('Mac OS X') !== -1 ? 'Command' : 'Ctrl'
-      return (
-        <h3>
-          Pressing <kbd>{key}</kbd> + <kbd>S</kbd> or clicking the preview image
-          will add the url to your clipboard.
-        </h3>
-      )
-    }
-  }, [])
+  // const explanation = useMemo(() => {
+  //   if (window.innerWidth <= 800 || window.innerHeight <= 600) {
+  //     return
+  //   } else {
+  //     const key =
+  //       navigator.userAgent.indexOf('Mac OS X') !== -1 ? 'Command' : 'Ctrl'
+  //     return (
+  //       <h3>
+  //         Pressing <kbd>{key}</kbd> + <kbd>S</kbd> or clicking the preview image
+  //         will add the url to your clipboard.
+  //       </h3>
+  //     )
+  //   }
+  // }, [])
 
   return (
     <div className="App">
       <h1>Github Math</h1>
-      {explanation}
       <LaTeXEditor
         code={code}
         onChange={value => {
           setCode(value)
         }}
       />
+      <h3>Click the preview image to add the url to your clipboard.</h3>
       <Display url={url} />
     </div>
   )
