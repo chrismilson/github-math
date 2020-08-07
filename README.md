@@ -23,5 +23,6 @@ in no time.
 3. Get the url. This is what github uses to generate your image. <br> _**NB:**
    Clicking the preview image will add the url to your clipboard._
 
-4. Use the url in an image in your readme. <br>This is as simple as `![alt](url)`.
-
+4. Use the url in an image in your readme. <br>This is as simple as
+   `![alt](url)` for inline math, and `<div align="center"><img src="url"
+   alt="alt"></img></div>`.
