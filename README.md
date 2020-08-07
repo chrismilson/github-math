@@ -8,9 +8,9 @@ Have you ever had trouble expressing mathematical ideas in a Github readme?
 
 Have you ever become tired of typing `&frasl;`, `&lfloor;` or `&isin;`?
 
-Now you need not worry! Github has a basic LaTeX style math encoding ability,
-and this app will streamline the process of going from something like `x =
-\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}` to ![x = \frac{-b \pm \sqrt{b^2 -
+Well, don't you fret! Github has basic LaTeX style math encoding ability, and
+this app will streamline the process of going from something like `x = \frac{-b
+\pm \sqrt{b^2 - 4ac}}{2a}` to ![x = \frac{-b \pm \sqrt{b^2 -
 4ac}}{2a}](https://render.githubusercontent.com/render/math?math=x%20%3D%20%5Cfrac%7B-b%20%5Cpm%20%5Csqrt%7Bb%5E2%20-%204ac%7D%7D%7B2a%7D)
 in no time.
 
