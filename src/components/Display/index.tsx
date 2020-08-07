@@ -1,4 +1,4 @@
-import React, { useCallback, useState, useEffect, useLayoutEffect } from 'react'
+import React, { useState, useLayoutEffect } from 'react'
 import useDebounced from '../../hooks/useDebounced'
 import addTextToClipboard from '../../common/addTextToClipboard'
 import './Display.css'
