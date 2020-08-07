@@ -4,6 +4,7 @@ import addTextToClipboard from './common/addTextToClipboard'
 import LaTeXEditor from './components/Editor'
 import Display from './components/Display'
 import './index.css'
+import usePersistentState from './hooks/usePersistentState'
 
 const defaultCode = `\\begin{split}
     2^{n\\cdot k} &= (1 + (2^n - 1))^k \\\\
@@ -23,7 +24,7 @@ const encodeUrl = (code: string) => {
 
 const App: React.FC = () => {
   // The default code is a simple mathematical fact
-  const [code, setCode] = useState(defaultCode)
+  const [code, setCode] = usePersistentState('code', defaultCode)
   const url = encodeUrl(code || defaultCode)
 
   useEffect(() => {
