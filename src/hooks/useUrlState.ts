@@ -1,8 +1,9 @@
 import { Dispatch, SetStateAction, useEffect, useState } from 'react'
 
 const getUrlCode = (fallback: string) => {
-  const match = window.location.pathname.match(/^\/github-math\/?(.*)/)
-  return match ? match[1] : fallback
+  const hash = window.location.hash
+  // if the hash is non-empty, there will be a hash at the beginning.
+  return hash ? hash.substring(1) : fallback
 }
 
 const useUrlState = (
@@ -13,7 +14,11 @@ const useUrlState = (
 
   useEffect(() => {
     // update the URL
-    window.history.replaceState(null, 'math-code', encodeURIComponent(state))
+    window.history.replaceState(
+      null,
+      'math-code',
+      state ? `/github-math/#${encodeURIComponent(state)}` : '/github-math'
+    )
   }, [state])
 
   return [state, setState]
