@@ -2,14 +2,16 @@ import React, { useEffect } from 'react'
 import addTextToClipboard from './common/addTextToClipboard'
 import LaTeXEditor from './components/Editor'
 import Display from './components/Display'
-import usePersistentState from './hooks/usePersistentState'
+import useUrlState from './hooks/useUrlState'
 import encodeUrl from './common/encodeUrl'
 import './App.css'
 
 const App: React.FC = () => {
   // The default code is a simple mathematical fact
-  const [code, setCode] = usePersistentState('code', '')
-  const url = encodeUrl(code)
+  // const [code, setCode] = usePersistentState('code', '')
+  const [code, setCode] = useUrlState()
+
+  const url = encodeUrl(code.trim())
 
   useEffect(() => {
     const listener = (e: KeyboardEvent) => {
