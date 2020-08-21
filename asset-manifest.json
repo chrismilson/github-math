@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/github-math/static/css/main.d0017d28.chunk.css",
-    "main.js": "/github-math/static/js/main.9c8a6b89.chunk.js",
-    "main.js.map": "/github-math/static/js/main.9c8a6b89.chunk.js.map",
+    "main.css": "/github-math/static/css/main.74453611.chunk.css",
+    "main.js": "/github-math/static/js/main.85159340.chunk.js",
+    "main.js.map": "/github-math/static/js/main.85159340.chunk.js.map",
     "runtime-main.js": "/github-math/static/js/runtime-main.dd90294f.js",
     "runtime-main.js.map": "/github-math/static/js/runtime-main.dd90294f.js.map",
     "static/js/2.ebb34e7b.chunk.js": "/github-math/static/js/2.ebb34e7b.chunk.js",
     "static/js/2.ebb34e7b.chunk.js.map": "/github-math/static/js/2.ebb34e7b.chunk.js.map",
     "index.html": "/github-math/index.html",
-    "precache-manifest.2be8a8a632322962565d7ba513469f63.js": "/github-math/precache-manifest.2be8a8a632322962565d7ba513469f63.js",
+    "precache-manifest.fe381d9bd4e2f9b63bc42c76ea1a432a.js": "/github-math/precache-manifest.fe381d9bd4e2f9b63bc42c76ea1a432a.js",
     "service-worker.js": "/github-math/service-worker.js",
-    "static/css/main.d0017d28.chunk.css.map": "/github-math/static/css/main.d0017d28.chunk.css.map",
+    "static/css/main.74453611.chunk.css.map": "/github-math/static/css/main.74453611.chunk.css.map",
     "static/js/2.ebb34e7b.chunk.js.LICENSE.txt": "/github-math/static/js/2.ebb34e7b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dd90294f.js",
     "static/js/2.ebb34e7b.chunk.js",
-    "static/css/main.d0017d28.chunk.css",
-    "static/js/main.9c8a6b89.chunk.js"
+    "static/css/main.74453611.chunk.css",
+    "static/js/main.85159340.chunk.js"
   ]
 }
