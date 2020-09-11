@@ -43,6 +43,10 @@ const Editor: React.FC<{
           value={code}
           width={`${width}px`}
           height={`${height}px`}
+          focus
+          onLoad={editor => {
+            editor.selectAll()
+          }}
         />
       </div>
     </div>
