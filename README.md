@@ -26,6 +26,8 @@ in no time.
 
 ## Example
 
+### Standalone
+
 ```markdown
 The sigmoid function, g, is defined on complex numbers z as:
 
@@ -35,6 +37,8 @@ The sigmoid function, g, is defined on complex numbers z as:
 The sigmoid function, g, is defined on complex numbers z as:
 
 ![sigmoid](https://render.githubusercontent.com/render/math?math=g(z)%20%3D%20%5Cfrac%7B1%7D%7B1%20%2B%20e%5E%7B-z%7D%7D)
+
+### Inline
 
 It can also be used inline:
 
