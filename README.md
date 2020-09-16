@@ -24,7 +24,7 @@ in no time.
 
 4. Use the url as the source for an image.
 
-## Example
+## Examples
 
 ### Standalone
 
