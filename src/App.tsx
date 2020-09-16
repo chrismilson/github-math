@@ -49,6 +49,14 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <h1>Github Math</h1>
+      <h4>
+        <a
+          className="subtitle"
+          href="https://github.com/chrismilson/github-math#readme"
+        >
+          What is this?
+        </a>
+      </h4>
       <LaTeXEditor
         code={code}
         onChange={value => {

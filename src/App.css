@@ -17,3 +17,8 @@
   height: 10em;
   flex: 0.5;
 }
+
+.subtitle {
+  margin: none;
+  color: inherit;
+}
