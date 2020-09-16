@@ -46,16 +46,16 @@ It can also be used inline:
 A **simple function** on
 ![the reals](https://render.githubusercontent.com/render/math?math=%5Cmathbb%7BR%7D)
 is a measurable function
-![phi](https://render.githubusercontent.com/render/math?math=%5Cphi%3A%5Cmathbb%7BR%7D%5Cto%5Cmathbb%7BR%7D)
+![phi](https://render.githubusercontent.com/render/math?math=%5Cvarphi%3A%5Cmathbb%7BR%7D%5Cto%5Cmathbb%7BR%7D)
 such that
-![the domain of phi](https://render.githubusercontent.com/render/math?math=%5Cphi(%5Cmathbb%7BR%7D))
+![the domain of phi](https://render.githubusercontent.com/render/math?math=%5Cvarphi(%5Cmathbb%7BR%7D))
 is finite.
 ```
 
 A **simple function** on
 ![the reals](https://render.githubusercontent.com/render/math?math=%5Cmathbb%7BR%7D)
 is a measurable function
-![phi](https://render.githubusercontent.com/render/math?math=%5Cphi%3A%5Cmathbb%7BR%7D%5Cto%5Cmathbb%7BR%7D)
+![phi](https://render.githubusercontent.com/render/math?math=%5Cvarphi%3A%5Cmathbb%7BR%7D%5Cto%5Cmathbb%7BR%7D)
 such that
-![the domain of phi](https://render.githubusercontent.com/render/math?math=%5Cphi(%5Cmathbb%7BR%7D))
+![the domain of phi](https://render.githubusercontent.com/render/math?math=%5Cvarphi(%5Cmathbb%7BR%7D))
 is finite.
